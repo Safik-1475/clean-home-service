@@ -1,8 +1,14 @@
+import Navbar from "./components/Navbar";
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
-      <h1 className="text-6xl">Hello Apu</h1>
+      <Navbar>
+        <Routes>
+
+        </Routes>
+      </Navbar>
     </>
   );
 }
